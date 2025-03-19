@@ -25,7 +25,7 @@ export function About(){
             <h2 className="text-4xl font-bold text-white">SOBRE</h2>
 
             <p className="text-pink-100">
-              Fique Linda e Maravilhosa com as unhas da Leleu!!
+              Fique Linda e Maravilhosa com as unhas da Leu!!
             </p>
 
             <ul className="space-y-4 text-white">

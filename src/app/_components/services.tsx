@@ -17,7 +17,7 @@ const services = [
     title: "Pé",
     description: "Inclui remoção de cutículas, corte, lixamento e esmalte da sua escolha. Ideal para quem deseja manter os pés impecáveis.",
     duration: "50min",
-    price: "R$ 35,00",
+    price: "R$ 20,00",
     icon: <Palette />,
     linkText: 'Olá, gostaria de agendar uma Manicure com Postiça.'
   },

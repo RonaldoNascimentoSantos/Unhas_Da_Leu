@@ -45,7 +45,7 @@ export function Footer() {
             {/* Horário e Redes Sociais */}
             <div className="col-span-1">
               <h3 className="font-semibold text-lg mb-4">Horário de Funcionamento</h3>
-              <p className="mb-4">Segunda a Sábado: 9h às 19h</p>
+              <p className="mb-4">Segunda a Sábado: 9h às 21h</p>
               
               <h3 className="font-semibold text-lg mb-2">Redes Sociais</h3>
               <div className="flex space-x-4">
@@ -68,7 +68,7 @@ export function Footer() {
           
           {/* Copyright */}
           <div className="text-center text-sm">
-            <p>&copy; 2025 Unhas da Leu - @Ronaldo Nascimento - Todos os direitos reservados</p>
+            <p>&copy; 2025 Unhas da Leu - Desenvolvido por @Ronaldo Nascimento - Todos os direitos reservados</p>
             <div className="mt-2 space-x-4">
               <a href="#" className="hover:text-pink-500 transition-colors">Política de Privacidade</a>
               <a href="#" className="hover:text-pink-500 transition-colors">Termos de Uso</a>
