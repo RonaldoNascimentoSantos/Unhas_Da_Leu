@@ -45,7 +45,7 @@ export function Footer() {
             {/* Horário e Redes Sociais */}
             <div className="col-span-1">
               <h3 className="font-semibold text-lg mb-4">Horário de Funcionamento</h3>
-              <p className="mb-4">Segunda a Sábado: 9h às 21h</p>
+              <p className="mb-4">Segunda a Sábado: 8h às 21h</p>
               
               <h3 className="font-semibold text-lg mb-2">Redes Sociais</h3>
               <div className="flex space-x-4">

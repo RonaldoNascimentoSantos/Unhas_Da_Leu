@@ -3,19 +3,19 @@
 import { useState, useEffect } from 'react';
 import { WhatsappLogo } from '@phosphor-icons/react/dist/ssr';
 import { ArrowRight, Star, Calendar, Clock } from 'lucide-react';
-import unhaImg from '../../../public/imagem7.png';
-import unhasImg from '../../../public/imagem7.png';
+import unhaImg from '../../../public/imagem8.png';
+import unhasImg from '../../../public/imagem8.png';
 import Image from 'next/image';
 
 // Importe as novas imagens - Você precisará criar esses imports com os caminhos corretos
-import unhaButterfly from '../../../public/imagem1.png'; // Imagem 1 - borboleta
+import unhaButterfly from '../../../public/imagem6.png'; // Imagem 1 - borboleta
 import unhaPedicure from '../../../public/imagem2.png';   // Imagem 2 - pedicure
 import unhaBlue from '../../../public/imagem3.png';           // Imagem 3 - azul
 import unhaFrench from '../../../public/imagem4.png';       // Imagem 4 - francesinha
 
 // Adicione estes imports junto com os outros imports de imagens
 import unhaDesign from '../../../public/imagem5.png';  // Imagem 5
-import unhaNude from '../../../public/imagem6.png';    // Imagem 6
+import unhaNude from '../../../public/imagem1.png';    // Imagem 6
 
 export function Hero() {
   const [activeSlide, setActiveSlide] = useState(0);
@@ -108,7 +108,7 @@ const slides = [
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a 
-                href="https://api.whatsapp.com/message/VSFXTHMFB52NJ1?autoload=1&app_absent=0" 
+                href="https://wa.me/5571986130010?text=Eu%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Unhas%20da%20Leu!" 
                 className="bg-green-500 hover:bg-green-600 transition-all px-6 py-3 rounded-lg font-semibold flex items-center justify-center gap-2 shadow-lg shadow-green-600/20"
               >
                 <WhatsappLogo className='w-5 h-5' weight="fill" />

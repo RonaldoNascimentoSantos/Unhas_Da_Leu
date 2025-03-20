@@ -7,7 +7,7 @@ import { WhatsappLogo } from '@phosphor-icons/react'
 const services = [
   {
     title: "Mão",
-    description: "Inclui remoção de cutículas, corte, lixamento e esmalte da sua escolha. Ideal para quem deseja manter as unhas bem cuidadas",
+    description: "Inclui remoção de cutículas, corte, lixamento e esmalte da sua escolha. Ideal para quem deseja manter as unhas bem cuidadas",
     duration: "40min",
     price: "R$ 25,00",
     icon: <Scissors />,
@@ -15,7 +15,7 @@ const services = [
   },
   {
     title: "Pé",
-    description: "Inclui remoção de cutículas, corte, lixamento e esmalte da sua escolha. Ideal para quem deseja manter os pés impecáveis.",
+    description: "Inclui remoção de cutículas, corte, lixamento e esmalte da sua escolha. Ideal para quem deseja manter os pés impecáveis.",
     duration: "50min",
     price: "R$ 20,00",
     icon: <Palette />,
@@ -23,16 +23,16 @@ const services = [
   },
   {
     title: "Combo Pé e Mão",
-    description: "Inclui remoção de cutículas, corte, lixamento e esmalte da sua escolha. Ideal para quem deseja manter a auto estima elevada.",
-    duration: "1h30min",
+    description: "Inclui remoção de cutículas, corte, lixamento e esmalte da sua escolha. Ideal para quem deseja manter a auto estima elevada.",
+    duration: "1h",
     price: "R$ 40,00",
     icon: <Sparkles />,
     linkText: 'Olá, gostaria de agendar um Combo Pé e Mão.'
   },
   {
     title: "Pé e Mão +  Postiças",
-    description: "Inclui remoção de cutículas, corte, lixamento e esmalte da sua escolha. Inclui preparação da unha natural e colagem profissional da postiça, com finalização perfeita e um resultado duradouro. Ideal para quem deseja uma transformação completa.",
-    duration: "1h20min",
+    description: "Inclui remoção de cutículas, corte, lixamento e esmalte da sua escolha. Inclui preparação da unha natural e colagem profissional da postiça, com finalização perfeita e um resultado duradouro. Ideal para quem deseja uma transformação completa.",
+    duration: "1h",
     price: "R$ 45,00",
     icon: <Gem />,
     linkText: 'Olá, gostaria de informações sobre Pé e Mão com Postiças.'
@@ -40,8 +40,8 @@ const services = [
 
   {
     title: "Pé e Mão + SPA  ",
-    description: "Inclui remoção de cutículas, corte, lixamento e esmalte da sua escolha. Acompanhado por um incrível spa dos pés e uma massagem relaxante. Ideal para quem deseja relaxamento por completo",
-    duration: "1h20min",
+    description: "Inclui remoção de cutículas, corte, lixamento e esmalte da sua escolha. Acompanhado por um incrível spa dos pés e uma massagem relaxante. Ideal para quem deseja relaxamento por completo",
+    duration: "1h",
     price: "R$ 50,00",
     icon: <Gem />,
     linkText: 'Olá, gostaria de informações sobre Pé e Mão mais SPA dos Pés.'
@@ -49,8 +49,8 @@ const services = [
 
   {
     title: "Mão + Postiças realista",
-    description: "Inclui remoção de cutículas, corte, lixamento e esmalte da sua escolha. Preparação da unha natural e colagem profissional, com finalização perfeita e resultado duradouro. Ideal para quem deseja mudar o visual.",
-    duration: "1h20min",
+    description: "Inclui remoção de cutículas, corte, lixamento e esmalte da sua escolha. Preparação da unha natural e colagem profissional, com finalização perfeita e resultado duradouro. Ideal para quem deseja mudar o visual.",
+    duration: "1h",
     price: "R$ 45,00",
     icon: <Gem />,
     linkText: 'Olá, gostaria de informações sobre Pé e Mão com Postiças mais SPA dos Pés.'
@@ -114,7 +114,7 @@ export function Services() {
 
                       <a
                         target='_blank'
-                        href={`https://api.whatsapp.com/message/VSFXTHMFB52NJ1?autoload=1&app_absent=0&text=${encodeURIComponent(item.linkText)}`}
+                        href={`https://wa.me/5571986130010?text=${encodeURIComponent(item.linkText)}`}
                         className='flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white px-4 py-1 rounded-md duration-300'
                       >
                         <WhatsappLogo className='w-5 h-5' />
